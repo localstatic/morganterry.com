@@ -1,6 +1,4 @@
 
-#Options -MultiViews
-
 RewriteEngine on
 #RewriteBase /
 
