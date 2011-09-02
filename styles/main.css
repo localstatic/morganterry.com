@@ -97,14 +97,34 @@ a {
  * Portfolio page styles
  */
 
-#portfolioList {
-}
+#portfolio {}
+#portfolio .project {
+	border: 1px solid black;
 
-#portfolioList > dd > ul {
-	list-style-type: none;
+	padding: 10px;
+	float: left;
+	margin: 10px;
+	width: 300px;
 }
+#portfolio .project .project-name {
+}
+#portfolio .project .project-images {
+	border: 1px solid red;
 
-#portfolioList > dd > ul > li {
+	width: 280px;
+	height: 280px;
+	margin: 0 auto 10px auto;
+}
+#portfolio .project .project-images img.main {
+}
+#portfolio .project .project-info {
+	display: none;
+}
+#portfolio .project .project-info .project-name {
+	display: block;
+	position: relative;
+}
+#portfolio .project .project-details {
 }
 
 /*
