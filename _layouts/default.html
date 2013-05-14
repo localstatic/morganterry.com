@@ -20,16 +20,18 @@
 			<p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
 			<![endif]-->
 
-			<header>
-				<div class="logo-wrap"><h1><a href="{{ site.baseurl }}">{{ site.name }}</a></h1></div>
-				<div class="header-secondary">
-					<ul class="header-links">
-						<li><a href="https://github.com/localstatic" target="_blank"><img src="{{ site.base }}/img/github/github-mark-32px.png" class="header-icon"></a></li>
-						<li><a href="http://www.linkedin.com/pub/morgan-terry/3/731/711" target="_blank"><img src="{{ site.base }}/img/linkedin/LinkedIn_Logo60px.png" class="header-icon"></a></li>
-						<li><a href="https://twitter.com/localstatic" target="_blank"><img src="{{ site.base }}/img/twitter/twitter-bird-light-bgs.png" class="header-icon"></a></li>
-					</ul>
-				</div>
-			</header>
+			<div class="wrap-outer wrap-outer-0">
+				<header class="wrap">
+					<div class="logo-wrap"><h1><a href="{{ site.baseurl }}">{{ site.name }}</a></h1></div>
+					<div class="header-secondary">
+						<ul class="header-links">
+							<li><a href="https://github.com/localstatic" target="_blank"><img src="{{ site.base }}/img/github/github-mark-32px.png" class="header-icon"></a></li>
+							<li><a href="http://www.linkedin.com/pub/morgan-terry/3/731/711" target="_blank"><img src="{{ site.base }}/img/linkedin/LinkedIn_Logo60px.png" class="header-icon"></a></li>
+							<li><a href="https://twitter.com/localstatic" target="_blank"><img src="{{ site.base }}/img/twitter/twitter-bird-light-bgs.png" class="header-icon"></a></li>
+						</ul>
+					</div>
+				</header>
+			</div>
 
 			<div id="content">
 				{{ content }}
@@ -41,16 +43,16 @@
 
 			<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 			<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
-			<script src="js/plugins.js"></script>
-			<script src="js/main.js"></script>
+				<script src="js/plugins.js"></script>
+				<script src="js/main.js"></script>
 
-			<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-			<script>
-				var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
-				(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-					g.src='//www.google-analytics.com/ga.js';
-					s.parentNode.insertBefore(g,s)}(document,'script'));
-			</script>
-		</div>
-	</body>
-</html>
+				<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+				<script>
+					var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+					(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+						g.src='//www.google-analytics.com/ga.js';
+						s.parentNode.insertBefore(g,s)}(document,'script'));
+				</script>
+			</div>
+		</body>
+	</html>
