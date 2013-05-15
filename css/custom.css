@@ -1,18 +1,5 @@
-/*
-Color Scheme: Rhyde
-============
-dkbrn:  #585340
-lttan:  #b7ae9d
-whtish: #fafffc
-ltblu:  #accecd
-dkred:  #8a151b
-pink:   #bc6367
-*/
-
 
 html, body {
-	color: #585340;
-	background-color: #fff;
 }
 
 body {
@@ -21,19 +8,15 @@ body {
 }
 
 a {
-	color: #8a151b;
 }
 
 a:visited {
-	color: #bc6367;
 }
 
 header a, footer a {
-	color: #484340;
 }
 
 header a:visited, footer a:visited {
-	color: #484340;
 }
 
 header {
@@ -42,7 +25,6 @@ header {
 
 header .logo-wrap a {
 	text-decoration: none;
-	color: #585340;
 }
 
 header .logo-wrap h1 {
@@ -84,23 +66,15 @@ header, footer, .wrap {
 }
 
 .wrap-outer-0 {
-	background-color: #fff;
-	color: #585340;
 }
 
 .wrap-outer-1, .wrap-outer-2, .wrap-outer-3 {
-	color: #fafffc;
-	background-color: #8a151b;
 }
 
 .wrap-outer-1 {
-	color: #585340;
-	background-color: #accaed;
 }
 
 .wrap-outer-2 {
-	color: #585340;
-	background-color: #b7ae9d;
 }
 
 .wrap {
@@ -114,4 +88,57 @@ header, footer, .wrap {
 	width: 35%;
 	float: left;
 }
+
+/*
+Color Scheme: MPB
+=================
+dkgray: #797979
+dkblue: #0069a3
+white:  #ffffff
+ltgray: #e7e7e7
+ltgrn:  #add1bf
+dkgrn:  #008e48 
+*/
+
+html, body {
+	color: #000;
+	background-color: #fff;
+}
+
+a {
+	color: #0069a3;
+}
+
+a:visited {
+	color: #accaed;
+}
+
+header a, footer a {
+}
+
+header a:visited, footer a:visited {
+}
+
+header .logo-wrap a {
+	color: #585340;
+}
+
+.wrap-outer-0 {
+}
+
+.wrap-outer-1 {
+	color: #000;
+	background-color: #add1bf;
+}
+
+.wrap-outer-2 {
+	color: #000;
+	background-color: #b7ae9d;
+}
+
+.wrap-outer-3 {
+	color: #000;
+	background-color: #e7e7e7;
+}
+
 
