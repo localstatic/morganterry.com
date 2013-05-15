@@ -1,9 +1,39 @@
+/*
+Color Scheme: Rhyde
+============
+dkbrn:  #585340
+lttan:  #b7ae9d
+whtish: #fafffc
+ltblu:  #accecd
+dkred:  #8a151b
+pink:   #bc6367
+*/
 
-header, footer, .wrap {
-	width: 90%;
-	max-width: 940px;
-	margin: 0 auto;
-	border: 0;
+
+html, body {
+	color: #585340;
+	background-color: #fff;
+}
+
+body {
+	position: relative;
+	height: 100%;
+}
+
+a {
+	color: #8a151b;
+}
+
+a:visited {
+	color: #bc6367;
+}
+
+header a, footer a {
+	color: #484340;
+}
+
+header a:visited, footer a:visited {
+	color: #484340;
 }
 
 header {
@@ -12,10 +42,16 @@ header {
 
 header .logo-wrap a {
 	text-decoration: none;
+	color: #585340;
+}
+
+header .logo-wrap h1 {
+	display: inline;
 }
 
 header .header-secondary {
 	position: absolute;
+	margin: 1em 0;
 	top: 0;
 	right: 0;
 }
@@ -36,17 +72,35 @@ header .header-links .header-icon {
 	height: 32px;
 }
 
+header, footer, .wrap {
+	width: 90%;
+	max-width: 940px;
+	margin: 0 auto;
+	border: 0;
+}
+
 .wrap-outer {
 	margin: 0;
 }
 
+.wrap-outer-0 {
+	background-color: #fff;
+	color: #585340;
+}
+
+.wrap-outer-1, .wrap-outer-2, .wrap-outer-3 {
+	color: #fafffc;
+	background-color: #8a151b;
+}
+
 .wrap-outer-1 {
+	color: #585340;
+	background-color: #accaed;
 }
 
 .wrap-outer-2 {
-}
-
-.wrap-outer-3 {
+	color: #585340;
+	background-color: #b7ae9d;
 }
 
 .wrap {
