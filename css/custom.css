@@ -89,6 +89,22 @@ header, footer, .wrap {
 	float: left;
 }
 
+.slideshow-wrap, .slideshow, .slideshow > * {
+	width: 100%;
+}
+
+.slideshow {
+	height: 200px;
+}
+
+.slideshow > * {
+	height: 100%;
+}
+
+.slideshow {
+	border: 1px solid black;
+}
+
 /*
 Color Scheme: MPB
 =================
