@@ -20,7 +20,7 @@
 			<p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
 			<![endif]-->
 
-			<div class="wrap-outer wrap-outer-0">
+			<div id="wrap-outer-header" class="wrap-outer wrap-outer-0">
 				<header class="wrap">
 					<div class="logo-wrap"><h1><a href="{{ site.baseurl }}">{{ site.name }}</a></h1></div>
 					<div class="header-secondary">
@@ -37,9 +37,16 @@
 				{{ content }}
 			</div>
 
-			<footer>
-				<p>&copy 2013 Morgan Terry</p>
-			</footer>
+			<div id="wrap-outer-footer" class="wrap-outer">
+				<footer>
+					<p>&copy; 2013 Morgan Terry</p>
+					<p>
+						<address>
+							<a href="http://www.google.com/recaptcha/mailhide/d?k=01tv4xDuGjBM74Jqqd1k6JIw==&amp;c=LbS40W3Kq0zylx91XSNjP0fyKCEQDt85gKJ84gj3PyE=" onclick="window.open('http://www.google.com/recaptcha/mailhide/d?k\07501tv4xDuGjBM74Jqqd1k6JIw\75\75\46c\75LbS40W3Kq0zylx91XSNjP0fyKCEQDt85gKJ84gj3PyE\075', '', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=300'); return false;" title="Reveal this e-mail address">...@morganterry.net</a>
+						</address>
+					</p>
+				</footer>
+			</div>
 
 			<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 			<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
