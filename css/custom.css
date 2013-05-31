@@ -77,6 +77,10 @@ header, footer, .wrap {
 .wrap-outer-2 {
 }
 
+#wrap-outer-footer {
+	min-height: 5em;
+}
+
 .wrap {
 	padding: 1em 0;
 }
@@ -89,7 +93,10 @@ header, footer, .wrap {
 	float: left;
 }
 
-.slideshow-wrap, .slideshow, .slideshow > * {
+/*
+.slideshow-wrap,
+.slideshow,
+.slideshow > * {
 	width: 100%;
 }
 
@@ -104,21 +111,102 @@ header, footer, .wrap {
 .slideshow {
 	border: 1px solid black;
 }
-
-/*
-Color Scheme: MPB
-=================
-dkgray: #797979
-dkblue: #0069a3
-white:  #ffffff
-ltgray: #e7e7e7
-ltgrn:  #add1bf
-dkgrn:  #008e48 
 */
 
+/************************
+ * Sample work lideshow *
+ ************************/
+
+/*
+.slideshow-wrap {
+	width: 100%;
+	position: relative;
+	z-index: 5;
+}
+
+.slideshow-wrap .slideshow-prev,
+.slideshow-wrap .slideshow-next {
+	display: block;
+	margin: 0;
+	vertical-align: middle;
+	height: 100%;
+	width: 25px;
+	position: absolute;
+	top: 0;
+	z-index: 10;
+}
+
+.slideshow-wrap .slideshow-prev {
+	left: 0;
+}
+
+.slideshow-wrap .slideshow-next {
+	right: 0;
+}
+
+#sample-work-slideshow {
+	position: relative;
+}
+
+.slide {
+	margin: 0 25px;
+}
+
+#sample-work-slideshow .slide img.slide-image,
+#sample-work-slideshow .slide .slide-content {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+#sample-work-slideshow .slide img.slide-image {
+}
+
+#sample-work-slideshow .slide .slide-content {
+	padding: 10px;
+}
+
+#sample-work-slideshow .slide .slide-content h3 {
+	margin-top: 0;
+}
+*/
+
+.project-wrap {
+	border-bottom: 1px dotted black;
+}
+.sample-work-wrap :last-child {
+	border-bottom: none;
+}
+
+.project {
+}
+
+/*********************
+ * Color Scheme: MPB *
+ * ================= *
+ * dkgray: #797979   *
+ * dkblue: #0069a3   *
+ * white:  #ffffff   *
+ * ltgray: #e7e7e7   *
+ * ltgrn:  #add1bf   *
+ * dkgrn:  #008e48   *
+ *********************/
+
 html, body {
+	color: #fff;
+	background-color: #000;
+}
+
+header {
 	color: #000;
 	background-color: #fff;
+}
+
+#content {
+	color: #000;
+	background-color: #e7e7e7;
 }
 
 a {
@@ -126,7 +214,6 @@ a {
 }
 
 a:visited {
-	color: #accaed;
 }
 
 header a, footer a {
@@ -140,6 +227,8 @@ header .logo-wrap a {
 }
 
 .wrap-outer-0 {
+	color: #000;
+	background-color: #fff;
 }
 
 .wrap-outer-1 {
@@ -157,4 +246,14 @@ header .logo-wrap a {
 	background-color: #e7e7e7;
 }
 
+#wrap-outer-footer {
+	color: #fff;
+	background-color: #000;
+}
 
+footer a {
+	color: #accaed;
+}
+
+/**
+ **/
