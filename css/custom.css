@@ -144,7 +144,7 @@ header, footer, .wrap {
 	right: 0;
 }
 
-#sample-work-slideshow {
+#portfolio-slideshow {
 	position: relative;
 }
 
@@ -152,8 +152,8 @@ header, footer, .wrap {
 	margin: 0 25px;
 }
 
-#sample-work-slideshow .slide img.slide-image,
-#sample-work-slideshow .slide .slide-content {
+#portfolio-slideshow .slide img.slide-image,
+#portfolio-slideshow .slide .slide-content {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -161,14 +161,14 @@ header, footer, .wrap {
 	height: 100%;
 }
 
-#sample-work-slideshow .slide img.slide-image {
+#portfolio-slideshow .slide img.slide-image {
 }
 
-#sample-work-slideshow .slide .slide-content {
+#portfolio-slideshow .slide .slide-content {
 	padding: 10px;
 }
 
-#sample-work-slideshow .slide .slide-content h3 {
+#portfolio-slideshow .slide .slide-content h3 {
 	margin-top: 0;
 }
 */
@@ -176,7 +176,7 @@ header, footer, .wrap {
 .project-wrap {
 	border-bottom: 1px dotted black;
 }
-.sample-work-wrap :last-child {
+.portfolio-wrap :last-child {
 	border-bottom: none;
 }
 
