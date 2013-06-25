@@ -200,8 +200,6 @@ html, body {
 }
 
 header {
-	color: #000;
-	background-color: #fff;
 }
 
 #content {
@@ -223,12 +221,10 @@ header a:visited, footer a:visited {
 }
 
 header .logo-wrap a {
-	color: #585340;
+	color: #fff;
 }
 
 .wrap-outer-0 {
-	color: #000;
-	background-color: #fff;
 }
 
 .wrap-outer-1 {
