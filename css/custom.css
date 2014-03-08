@@ -224,28 +224,28 @@ header .logo-wrap a {
 	color: #fff;
 }
 
-.wrap-outer-0 {
-}
+/*.wrap-outer-0 {*/
+/*}*/
 
-.wrap-outer-1 {
-	color: #000;
-	background-color: #add1bf;
-}
+/*.wrap-outer-1 {*/
+	/*color: #000;*/
+	/*background-color: #add1bf;*/
+/*}*/
 
-.wrap-outer-2 {
-	color: #000;
-	background-color: #b7ae9d;
-}
+/*.wrap-outer-2 {*/
+	/*color: #000;*/
+	/*background-color: #b7ae9d;*/
+/*}*/
 
-.wrap-outer-3 {
-	color: #000;
-	background-color: #e7e7e7;
-}
+/*.wrap-outer-3 {*/
+	/*color: #000;*/
+	/*background-color: #e7e7e7;*/
+/*}*/
 
-#wrap-outer-footer {
-	color: #fff;
-	background-color: #000;
-}
+/*#wrap-outer-footer {*/
+	/*color: #fff;*/
+	/*background-color: #000;*/
+/*}*/
 
 footer a {
 	color: #accaed;
