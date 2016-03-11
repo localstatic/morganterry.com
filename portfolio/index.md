@@ -11,7 +11,7 @@ Below is a small sample of my previous work. I've tried to give a broad sampling
 
 ### GLF
 
-GLF is a lunch polling application. This was written to help my team and I where to go for lunch on "Good Lunch Friday." We'd often have trouble deciding, so I created this web application to allow us to nominate and vote on restaurants.
+GLF is a lunch polling application. This was written to help my team and I decide on where to go for lunch on "Good Lunch Friday." We'd often have trouble deciding, so I created this web application to allow us to nominate and vote on restaurants.
 
 * When: April 2013 - May 2014
 * Role: Sole developer
