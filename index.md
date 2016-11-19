@@ -12,7 +12,7 @@ share: false
 
 ## Morgan Terry, Software Engineer
 
-I am a software engineer in Salt Lake City, UT.
+I am a software engineer in Salt Lake City, UT with over 15 years of professional development experience.
 
 I currently work mainly with PHP, and am very glad to see the renaissance it is currently experiencing. I believe things like [Composer](https://getcomposer.org/) and [PHP: The Right Way](http://www.phptherightway.com/) are truly making the PHP ecosystem a much better place. A place that I am more excited than ever to be a part of.
 
@@ -20,8 +20,13 @@ In addition to PHP, I am also interested in a variety of other languages and tec
 
 * PHP
 * MySQL
-* HTML and CSS
-* JavaScript and jQuery
+* Laravel
+
+In addition, I've worked with a variety of other languages, frameworks and other technologies throughout my career, including:
+
 * Drupal
 * Ruby on Rails
-
+* HTML &amp; CSS
+* JavaScript &amp; jQuery
+* Magento
+* Delphi
