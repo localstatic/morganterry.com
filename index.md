@@ -28,5 +28,3 @@ In addition, I've worked with a variety of other languages, frameworks and other
 * Ruby on Rails
 * HTML &amp; CSS
 * JavaScript &amp; jQuery
-* Magento
-* Delphi
