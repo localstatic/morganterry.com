@@ -1,0 +1,14 @@
+[
+  {
+      "grouping": "Languages",
+      "skills":[ "typescript", "javascript", "php" ]
+  },
+  {
+      "grouping": "Operating Systems & Tools",
+      "skills":[ "linux", "bash", "git", "subversion" ]
+  },
+  {
+      "grouping": "Architecture",
+      "skills":[ "RESTful APIs" ]
+  }
+]
