@@ -1,7 +1,7 @@
 baseURL = "https://morganterry.com/"
 languageCode = "en-us"
 title = "Morgan Terry"
-theme = "hugo-resume"
+theme = "hugo-resume-customized"
 
 [params]
     firstName = "Morgan"
