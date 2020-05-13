@@ -1,7 +1,5 @@
-morganterry.net
-===============
+# morganterry.net
 
-This is the source for my professional site. I've recently rewritten it to use Jekyll for ease of maintenance, and hope to keep it more up-to-date than I have been recently.
+This is the source for my professional site.
 
-This site is using the excellent [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/) Jekyll theme.
-
+This site is using [Hugo](https://gohugo.io/) and the [Hugo Resume](https://github.com/eddiewebb/hugo-resume) theme.

@@ -1,0 +1,42 @@
+baseURL = "https://morganterry.com/"
+languageCode = "en-us"
+title = "Morgan Terry"
+theme = "hugo-resume-customized"
+
+[params]
+    firstName = "Morgan"
+    lastName = "Terry"
+    address = "Salt Lake City, UT"
+    contactNote = "Software Engineer"
+    profileImage = "img/bio-photo.jpg"
+    email = "info@morganterry.com"
+    description = "Morgan Terry, Software Engineer"
+    # favicon = "images/favicon.ico"
+
+    # sections
+    showSkills = true
+    showProjects = false
+    showOpenSource = false
+    showPublications = false
+    showExperience = false
+    showEducation = false
+
+    showQr = false
+
+[[params.handles]]
+    name = "LinkedIn"
+    link = "http://linkedin.com/in/morgan-terry-7117313"
+
+[[params.handles]]
+    name = "GitHub"
+    link = "https://github.com/localstatic"
+
+[[params.handles]]
+    name = "Stack Overflow"
+    link = "http://stackoverflow.com/users/461321/localstatic"
+    icon = "stack-overflow"
+
+[[params.handles]]
+    name = "Twitter"
+    link = "http://twitter.com/localstatic"
+

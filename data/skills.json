@@ -1,0 +1,18 @@
+[
+  {
+      "grouping": "Languages",
+      "skills":[ "TypeScript", "JavaScript", "PHP" ]
+  },
+  {
+    "grouping": "Systems & Frameworks",
+    "skills": [ "Laravel", "Drupal" ]
+  },
+  {
+      "grouping": "Operating Systems & Tools",
+      "skills":[ "Linux", "Docker", "Kubernetes", "Git", "Subversion", "Bash", "MySQL" ]
+  },
+  {
+      "grouping": "Architecture",
+      "skills":[ "RESTful APIs" ]
+  }
+]
