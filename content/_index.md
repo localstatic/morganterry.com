@@ -6,8 +6,11 @@ sitemap:
 
 outputs:
 - html
-- rss
-- json
 ---
-<p>I am a software engineer with over 15 years of professional development experience. I'm currently
-using primarily TypeScript/Node.js. Previously, I worked a lot in various PHP stacks.</p>
+
+I am a software engineer in Salt Lake City, UT with over 15 years of professional software development experience.
+
+I've worked with a variety of languages and technologies throughout my career.  I am currently working mainly with TypeScript and Node.js. Previously, I spent over a decade working with PHP and related technologies like Composer, Laravel, etc.
+
+I am also interested in a variety of other languages and technologies. I love finding the right technology for the job, and understand that there can be a lot that goes into that decision.
+

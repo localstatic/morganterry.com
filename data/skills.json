@@ -1,11 +1,15 @@
 [
   {
       "grouping": "Languages",
-      "skills":[ "typescript", "javascript", "php" ]
+      "skills":[ "TypeScript", "JavaScript", "PHP" ]
+  },
+  {
+    "grouping": "Systems & Frameworks",
+    "skills": [ "Laravel", "Drupal" ]
   },
   {
       "grouping": "Operating Systems & Tools",
-      "skills":[ "linux", "bash", "git", "subversion" ]
+      "skills":[ "Linux", "Docker", "Kubernetes", "Git", "Subversion", "Bash", "MySQL" ]
   },
   {
       "grouping": "Architecture",
