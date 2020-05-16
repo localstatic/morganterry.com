@@ -1,0 +1,11 @@
+[[redirects]]
+  from = "https://morganterry.net/*"
+  to = "https://morganterry.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://www.morganterry.net/*"
+  to = "https://morganterry.com/:splat"
+  status = 301
+  force = true
