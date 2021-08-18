@@ -1,4 +1,4 @@
-# morganterry.net
+# morganterry.com
 
 This is the source for my professional site.
 
